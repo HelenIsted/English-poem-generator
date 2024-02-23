@@ -5,29 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Helen Isted's Poem Generator</title>
     <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>AI Poem Generator</header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="What would you like your poem to be about?"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>This is where the poem will go</div>
-      <br />
-      <div>This is where the poem will go</div>
-      <br />
-      <div>This is where the poem will go</div>
-      <br />
-      <div>This is where the poem will go</div>
-      <br />
-    </main>
+    <div class="container">
+      <header>AI Poem Generator</header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="What would you like your poem to be about?"
+            autofocus
+            required
+            autocomplete="off"
+            class="request"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          This is where the poem will go
+          <br />
+          This is where the poem will go
+          <br />
+          This is where the poem will go
+        </div>
+      </main>
+    </div>
     <footer>
       This page was coded by
       <a href="https://www.linkedin.com/in/helen-isted/" target="_blank"
