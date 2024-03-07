@@ -25,7 +25,7 @@ form {
 .request {
   padding: 12px;
   border-radius: 10px;
-  border: 1px solid rgb(66, 72, 116);
+  border: 1px solid #552e5a;
   background-color: #f4eeff;
   width: 75%;
   font-family: "Poppins", sans-serif;
@@ -36,7 +36,7 @@ form {
   margin-left: 5px;
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid rgb(66, 72, 116);
+  border: 1px solid #000;
   background-color: #f4eeff;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
@@ -52,13 +52,35 @@ a {
   text-decoration: none;
   font-weight: bold;
 }
+.hidden {
+  display: none;
+}
 .poem {
   color: #552e5a;
   font-weight: 500;
   font-size: 18px;
   text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #dcd6f7;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 30px;
 }
 .poem strong {
-  color: #000;
+  opacity: 0.8;
   font-style: italic;
+}
+.generating {
+  animation: blink-animation 0.6s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
