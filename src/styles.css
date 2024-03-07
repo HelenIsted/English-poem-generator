@@ -15,12 +15,18 @@ header {
   color: #552e5a;
   margin-bottom: 10px;
 }
-form {
+.form-container {
   padding: 20px;
   border-radius: 10px;
   background-color: #dcd6f7;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-bottom: 30px;
+}
+.hints {
+  text-align: left;
+  margin-left: 15px;
+  font-size: 12px;
+  opacity: 0.8;
 }
 .request {
   padding: 12px;
