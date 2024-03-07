@@ -56,4 +56,9 @@ a {
   color: #552e5a;
   font-weight: 500;
   font-size: 18px;
+  text-align: left;
+}
+.poem strong {
+  color: #000;
+  font-style: italic;
 }
